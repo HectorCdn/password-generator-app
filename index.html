@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="back">
+			<p class="password-Generator text-grey">Password Generator</p>
+			<div class="part1-password-generator">
+				<p class="password">PTx1f5DaFX</p>
+				<button>
+					<img
+						class="copy-paste"
+						src="asset/copy-paste.svg"
+						alt="copy-button"
+					/>
+				</button>
+			</div>
+			<div class="part2-settings">
+				<div class="part2-first">
+					<div class="text1">Character Length</div>
+					<div class="number">10</div>
+				</div>
+				<div>
+					<input type="range" id="range" value="100" />
+				</div>
+				<div class="div-checkbox">
+					<div class="input-checkbox">
+						<input id="Uppercase" type="checkbox" />
+						<label for="Uppercase">Include Uppercase Letters</label>
+					</div>
+					<div class="input-checkbox">
+						<input id="Lowercase" type="checkbox" />
+						<label for="Lowercase">Include Lowercase Letters</label>
+					</div>
+					<div class="input-checkbox">
+						<input id="Numbers" type="checkbox" />
+						<label for="Numbers">Include Numbers</label>
+					</div>
+					<div class="input-checkbox">
+						<input id="Symbols" type="checkbox" />
+						<label for="Symbols">Include Symbols</label>
+					</div>
+				</div>
+				<div class="div-strenght">
+					<p class="text-grey strenght">STRENGTH</p>
+					<div class="difficulty-password">
+						<p class="MEDIUM">MEDIUM</p>
+						<div class="barre">
+							<div class="orange-rectangle"></div>
+							<div class="orange-rectangle"></div>
+							<div class="orange-rectangle"></div>
+							<div class="orange-rectangle-not-full"></div>
+						</div>
+					</div>
+				</div>
+				<div class="div-generate">
+					<p class="text-black">GENERATE</p>
+					<img src="asset/star.svg" alt="" />
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
